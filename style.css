@@ -1,0 +1,418 @@
+/* Add your CSS here */
+/*Coded by Lil-Dino*/
+body{
+    background-color: #14171F;
+    margin-left: 10%;
+    margin-top: 6%;
+    cursor: default;
+    color: #A5C6EA;
+    overflow-y: hidden;
+}
+
+/*COde for the top menu*/
+.container{
+    background-color: #1B202A;
+    color: #A5C6EA;
+    padding-left: 3%;
+    padding-top: 1px;
+    font-size: small;
+    font-family: Arial Narrow;
+    height: 650px;
+    width: 250px;
+    box-shadow: 0px 1px 10px #11161C;
+}
+.top-menu{
+    display: flex;
+    width: 300px;
+    height: 25px;
+}
+.container1{
+        overflow-x: scroll; 
+}
+.container1::-webkit-scrollbar{
+    display: none;
+}
+label{
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: -15px;
+    height: 35px;
+}
+
+label:hover{
+    border-bottom: 1px solid #A5C6EA;
+    transition: 2s ease-in-out;
+}
+.top-menu input[type="radio"]{
+    display: none;
+}
+
+.top-menu input[type="radio"]:checked{
+    font-size: 30px;
+    border-bottom: 1px solid #A5C6EA;
+}
+
+
+/*COde for the New album*/
+.new-album{
+    display: flex;
+    margin-top: 3%;
+    overflow-x: scroll;
+}
+.new-album::-webkit-scrollbar{
+    display: none;
+}
+.artist{
+    padding-top: 5px;
+    margin-top: 9px;
+    padding-bottom: 5px;
+    width: 200px;
+    margin-right: 9px;
+}
+.artist1{
+    display: flex;
+    justify-content: space-between;
+}
+.artist1 button{
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid orangered;
+    background-color: #1B202A;
+    color: #A5C6EA;
+    font-size: 10px;
+}
+
+.artist2{
+    background-image: url('https://www.ceenaija.com/wp-content/uploads/2023/04/Judikay-Jehovah-meliwo.jpg');
+    background-size: 200px 120px;
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+}
+.artist2:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgba(255, 255, 255, 0.374);
+    transition: .3s ease-in-out;
+}
+.artist4{
+    background-image: url('https://www.ceenaija.com/wp-content/uploads/2023/06/Nathaniel-Bassey-Iba-Ft.-Dunsin-Oyekan.jpg');
+    background-size: 200px 120px;
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+}
+.artist4:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgba(255, 255, 255, 0.374);
+    transition: .3s ease-in-out;
+}
+.artist3{
+    margin-top: -5%;
+    line-height: 4px;
+}
+
+
+/*COde for the New album*/
+
+.hot-songs{
+    height: 200px;
+    overflow-y: scroll;
+}
+.hot-songs::-webkit-scrollbar{
+    display: none;
+}
+.hot-songs1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-right: 15px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.hot-songs1 .fa-plus{
+    color: orangered;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.hot-songs1 img{
+    border-radius: 50%;
+    max-width: 20%;
+}
+.hot-songs2{
+    line-height: 3px;
+    margin-left: -15%;
+}
+
+
+/*style for play-count tab*/
+
+.bar {
+ position:relative;
+  float:left;
+  min-width:1%;
+  height:100%;
+  background: orangered;
+  width: 250px;
+  overflow-x: hidden;
+}
+ .progress2 {
+  padding-top:0;
+  margin-top: 1%;
+  width:105%;
+  height:5px;
+  overflow-x:hidden;
+  background:#a2a2a2;
+  margin-left: -14px;
+  margin-bottom: 7px;
+}
+.hot-songs1 .fa-play{
+    color: #A5C6EA;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+/*style for down-menu tab*/
+
+.down-menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 1px;
+    box-shadow: 5px 0px 5px #14171F;
+    margin-left: -15px;
+    padding: 2%;
+}
+
+.down-menu i{
+    font-size: larger;
+}
+
+/*style for overlay*/
+.player{
+    position: absolute;
+    top: 770px;
+    width: 250px;
+    
+}
+.overlay{
+    background-color: #1b202ae6;
+    margin-left: -15px;
+    padding: 30px;
+    height: 280px;    
+    box-shadow: 0px 1px 2px #a5c6ea3c;
+}
+.imgheight{
+    height: 140px;
+    width: fit-content;
+}
+
+
+.overlay1{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px;
+    font-size: 30px;
+}
+.overlay2{
+    line-height: 5px;
+    text-align: center;
+}
+.overlay2 img{
+    border-radius: 50%;
+    max-width: 70%;
+}
+
+.overlay4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: 5px;
+    margin-top: -15px;
+}
+.overlay5{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: -15px;
+}
+.volume{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+input[type="range"]{
+    color: antiquewhite;
+}
+.fa:hover{
+    cursor: pointer;
+}
+
+.player .overlay2 img.rotate {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Media Queries */
+
+/* iPhone 11 Pro Max */
+@media only screen and (max-width: 428px) {
+    body {
+        margin-left: 0;
+        margin-top: 0;
+        overflow-y: auto;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .top-menu {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .container1 {
+        overflow-x: auto;
+    }
+
+    .artist {
+        width: 150px;
+        margin-right: 5px;
+    }
+
+    .new-album {
+        margin-top: 1%;
+    }
+
+    .artist2,
+    .artist4 {
+        background-size: 150px 90px;
+        width: 150px;
+        height: 90px;
+    }
+
+    .hot-songs {
+        height: 100px;
+    }
+
+    .hot-songs1 img {
+        max-width: 15%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+}
+
+/* Tecno Spark 10 Pro */
+@media only screen and (max-width: 360px) {
+    body {
+        margin-left: 0;
+        margin-top: 0;
+        overflow-y: auto;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .top-menu {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .container1 {
+        overflow-x: auto;
+    }
+
+    .artist {
+        width: 120px;
+        margin-right: 5px;
+    }
+
+    .new-album {
+        margin-top: 1%;
+    }
+
+    .artist2,
+    .artist4 {
+        background-size: 120px 72px;
+        width: 120px;
+        height: 72px;
+    }
+
+    .hot-songs {
+        height: 80px;
+    }
+
+    .hot-songs1 img {
+        max-width: 12%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+}
+
+/* iPhone 6s */
+@media only screen and (max-width: 320px) {
+    body {
+        margin-left: 0;
+        margin-top: 0;
+        overflow-y: auto;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    .top-menu {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .container1 {
+        overflow-x: auto;
+    }
+
+    .artist {
+        width: 100px;
+        margin-right: 5px;
+    }
+
+    .new-album {
+        margin-top: 1%;
+    }
+
+    .artist2,
+    .artist4 {
+        background-size: 100px 60px;
+        width: 100px;
+        height: 60px;
+    }
+
+    .hot-songs {
+        height: 60px;
+    }
+
+    .hot-songs1 img {
+        max-width: 10%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+}
