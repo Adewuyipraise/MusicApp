@@ -2,8 +2,8 @@
 /*Coded by Lil-Dino*/
 body{
     background-color: #14171F;
-    margin-left: 10%;
-    margin-top: 6%;
+    margin-left: 50%;
+    margin-top: auto;
     cursor: default;
     color: #A5C6EA;
     overflow-y: hidden;
@@ -320,8 +320,8 @@ input[type="range"]{
 /* Tecno Spark 10 Pro */
 @media only screen and (max-width: 360px) {
     body {
-        margin-left: 0;
-        margin-top: 0;
+        margin-left: auto;
+        margin-top: auto;
         overflow-y: auto;
     }
 
